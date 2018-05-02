@@ -13,7 +13,7 @@ class CheckerBoard:
         i = 0
         for x in range(0, len(self.imgdata)):       # for each row
             for y in range(i, len(self.imgdata[x]), 2):
-                self.imgdata[x][y] = [255,0,0,0]
+                self.imgdata[x][y] = [255,0,0,255]
             if i == 0:
                 i = 1
             else:

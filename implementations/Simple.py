@@ -37,7 +37,7 @@ class Simple(Implementation):
                 b += pixel[2]
                 count += 1
 
-        self.imgdata[row,col] =  (int(r/count),int(g/count),int(b/count),0)
+        self.imgdata[row,col] =  (int(r/count),int(g/count),int(b/count),255)
 
 
 
